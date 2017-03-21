@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4810E2701E4B1FAB00FB1151 /* userPageCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4810E26F1E4B1FAB00FB1151 /* userPageCollectionVC.m */; };
 		4810E2731E4B23A800FB1151 /* NotesCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4810E2721E4B23A800FB1151 /* NotesCollectionCell.m */; };
+		481540D31E81313400FA6ADA /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 481540D21E81313400FA6ADA /* TestViewController.m */; };
 		482095D91E51BCCA0051A6E4 /* PopButtonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 482095D81E51BCCA0051A6E4 /* PopButtonVC.m */; };
 		4824F2A11E4CA0A700D9CF9B /* key.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4824F29A1E4CA0A700D9CF9B /* key.jpeg */; };
 		4824F2A21E4CA0A700D9CF9B /* lockIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4824F29B1E4CA0A700D9CF9B /* lockIcon.png */; };
@@ -55,6 +56,8 @@
 		4810E26F1E4B1FAB00FB1151 /* userPageCollectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = userPageCollectionVC.m; sourceTree = "<group>"; };
 		4810E2711E4B23A800FB1151 /* NotesCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesCollectionCell.h; sourceTree = "<group>"; };
 		4810E2721E4B23A800FB1151 /* NotesCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesCollectionCell.m; sourceTree = "<group>"; };
+		481540D11E81313400FA6ADA /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		481540D21E81313400FA6ADA /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		482095D71E51BCCA0051A6E4 /* PopButtonVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopButtonVC.h; sourceTree = "<group>"; };
 		482095D81E51BCCA0051A6E4 /* PopButtonVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopButtonVC.m; sourceTree = "<group>"; };
 		4824F29A1E4CA0A700D9CF9B /* key.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = key.jpeg; path = image/key.jpeg; sourceTree = SOURCE_ROOT; };
@@ -236,6 +239,8 @@
 				4840066A1E4DD13800D7CD77 /* WebViewVC.m */,
 				482095D71E51BCCA0051A6E4 /* PopButtonVC.h */,
 				482095D81E51BCCA0051A6E4 /* PopButtonVC.m */,
+				481540D11E81313400FA6ADA /* TestViewController.h */,
+				481540D21E81313400FA6ADA /* TestViewController.m */,
 			);
 			name = viewController;
 			sourceTree = "<group>";
@@ -403,6 +408,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48FAC33E1E4335D0006B243B /* AppDelegate.m in Sources */,
+				481540D31E81313400FA6ADA /* TestViewController.m in Sources */,
 				482095D91E51BCCA0051A6E4 /* PopButtonVC.m in Sources */,
 				485D2CF41E4C430F0001B390 /* DetailsNotesVC.m in Sources */,
 				486B2D431E5DB3FA006CB33F /* Note.m in Sources */,
